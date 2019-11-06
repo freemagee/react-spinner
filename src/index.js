@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import { Spinner } from "./Spinner";
+import { Duration } from "./Duration";
 
 import "./styles.css";
 
@@ -18,6 +19,7 @@ function App() {
       <button type="button" id="extend" onClick={handleClick}>
         Extend duration
       </button>
+      <Duration duration={duration} />
     </div>
   );
 }
