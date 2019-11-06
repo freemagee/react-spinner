@@ -17,12 +17,12 @@ What I wanted was a spinner that would not flicker. So it will keep spinning as 
 
 ## Installation
 
-This is a react component, so should be used in a react project. All that is needed currently is the `Spinner.js` and the `Spinner.css` files.
+This is a react component, so should be used in a react project. All that is needed currently is the **Spinner** folder located at `\src`.
 
 ## Usage
 
 ```javascript
-import Spinner from "./Spinner";
+import { Spinner } from "./Spinner";
 ```
 
 ```javascript

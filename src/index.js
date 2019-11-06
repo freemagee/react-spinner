@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import Spinner from "./Spinner";
+import { Spinner } from "./Spinner";
 
 import "./styles.css";
 

@@ -40,9 +40,7 @@ function Spinner({ duration }) {
   }, [spinnerDuration]);
 
   return (
-    <div className="spinner" style={{ visibility }}>
-      Loading...
-    </div>
+    <div className="spinner" style={{ visibility }}></div>
   );
 }
 
