@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div id="App">
-      <Spinner duration={duration} />
+      <Spinner duration={duration} size={100} thickness={16} fill="#ffffff" />
       <button type="button" id="extend" onClick={handleClick}>
         Extend duration
       </button>

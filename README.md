@@ -1,6 +1,6 @@
 # React Spinner
 
-A react component that takes a duration(ms) as a prop, and will be visible for that duration. The components visibility can be extended every time it receives new duration props (in this example provided by clicking the button). If there is no more "duration" the components visibility will be set to hidden.
+A react component that takes a duration(milliseconds) as a prop, and will be visible for that duration. The components visibility can be extended every time it receives new duration props (in this example provided by clicking the button). If there is no more "duration" the components visibility will be set to hidden.
 
 [Demo](https://freemagee.github.io/react-spinner/)
 
@@ -9,7 +9,6 @@ A react component that takes a duration(ms) as a prop, and will be visible for t
 - [Why?](#why)
 - [Installation](#installation)
 - [Usage](#usage)
-- [TODO](#todo)
 
 ## Why?
 
@@ -19,7 +18,7 @@ What I wanted was a spinner that would not flicker. So it will keep spinning as 
 
 ## Installation
 
-This is a react component, so should be used in a react project. All that is needed currently is the **Spinner** folder located at `\src`.
+This is a react component, so should be used in a react project. All that is needed currently is the **Spinner** folder, and its contents, located at `\src`.
 
 ## Usage
 
@@ -29,16 +28,12 @@ import { Spinner } from "./Spinner";
 
 ```javascript
 // Somewhere in your component
-<Spinner duration={duration} />
+<Spinner duration={duration} size={100} thickness={16} fill="#ffffff" />
 ```
 
-Takes a `duration` prop, which should be a `Number` data type.
+- Takes a `duration` prop, in milliseconds, which should be a `Number` data type, this prop is _required_
+- Takes a `size` prop, intended size in pixels, which should be a `Number` data type, default _100_
+- Takes a `thickness` prop, intended size in pixels, which should be a `Number` data type, default _16_
+- Takes a `fill` prop, which should be a full HEX color code in `String` data type, default _#ffffff_
 
-The spinner element itself has been taken from [Luke Haas](https://projects.lukehaas.me/css-loaders/). Alternative spinners can be used from that source by replacing the CSS in `Spinner.css`.
-
-## TODO
-
-- [x] Resolve ESlint complaining about `react-hooks/exhaustive-deps`
-- [x] Add better visual explanation of duration to demo
-- [ ] Incorporate styles into the component to make it self contained
-- [ ] Improve the spinner CSS. I copied it from a 3rd party 😔
+The spinner element itself has been taken from [Luke Haas](https://projects.lukehaas.me/css-loaders/).
