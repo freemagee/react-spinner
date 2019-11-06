@@ -1,0 +1,37 @@
+#App {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#extend {
+  margin-top: 50px;
+  padding: 0.75rem 1rem;
+  background-color: #1f9dad;
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #10a9bc;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+#extend:hover {
+  background-color: #00b5cc;
+  border-color: #00b5cc;
+}
+
+#extend:active {
+  background-color: #00b5cc;
+  border-color: #00b5cc;
+}
+
+#extend:focus {
+  outline: 0;
+  border-color: #08e3ff;
+}
