@@ -37,6 +37,6 @@ The spinner element itself has been taken from [Luke Haas](https://projects.luke
 ## TODO
 
 - [ ] Resolve ESlint complaining about `react-hooks/exhaustive-deps`
-- [ ] Add better visual explanation of duration to demo
+- [x] Add better visual explanation of duration to demo
 - [ ] Incorporate styles into the component to make it self contained
 - [ ] Improve the spinner CSS. I copied it from a 3rd party 😔
