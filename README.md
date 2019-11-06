@@ -2,6 +2,8 @@
 
 A react component that takes a duration(ms) as a prop, and will be visible for that duration. The components visibility can be extended every time it receives new duration props (in this example provided by clicking the button). If there is no more "duration" the components visibility will be set to hidden.
 
+[Demo](https://freemagee.github.io/react-spinner/)
+
 ## Table of Contents
 
 - [Why?](#why)
