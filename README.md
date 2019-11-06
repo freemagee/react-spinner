@@ -32,13 +32,13 @@ import { Spinner } from "./Spinner";
 <Spinner duration={duration} />
 ```
 
-Takes a `duration` prop, which should be a `Number` type.
+Takes a `duration` prop, which should be a `Number` data type.
 
 The spinner element itself has been taken from [Luke Haas](https://projects.lukehaas.me/css-loaders/). Alternative spinners can be used from that source by replacing the CSS in `Spinner.css`.
 
 ## TODO
 
-- [ ] Resolve ESlint complaining about `react-hooks/exhaustive-deps`
+- [x] Resolve ESlint complaining about `react-hooks/exhaustive-deps`
 - [x] Add better visual explanation of duration to demo
 - [ ] Incorporate styles into the component to make it self contained
 - [ ] Improve the spinner CSS. I copied it from a 3rd party 😔

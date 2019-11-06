@@ -9,7 +9,7 @@ function Spinner({ duration }) {
 
   useEffect(() => {
     if (typeof duration === "number") {
-      setSpinnerDuration([...spinnerDuration, duration]);
+      setSpinnerDuration(currentDurations => [...currentDurations, duration]);
     }
   }, [duration]);
 
